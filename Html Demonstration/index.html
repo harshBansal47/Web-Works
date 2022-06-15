@@ -1,0 +1,337 @@
+<!-- declaration  --> 
+<!DOCTYPE html>
+<html lang="en"> <!-- root tag with declaration of type of language-->
+
+    <head>   <!-- head tag contain metadata information-->
+
+        <meta charset="UTF-8"> <!-- charset used -->
+        <!-- description of webpage-->
+        <meta name="description" content="html knowledge demonstration"> 
+        <!-- responsiveness using viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- including some search engine keywords -->
+        <meta name="keywords" content="HTML , CSS ,JAVASCRIPT">
+        <!-- refreshing web page every 10 minutes-->
+        <meta http-equiv="refresh" content="600">
+
+        <!-- title of webpage-->
+        <title> 
+            HTML markup demonstration
+        </title>
+
+        <!--including external css file-->
+        <link rel="stylesheet" href="style.css">
+        <!-- including favicon image-->
+        <link rel="shortcut icon" href="/images/87390.png" type="image/x-icon">
+        <!-- including external javascript file -->
+        <script src="app.js"></script>
+        <!-- including external fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+
+        <!-- including internal css-->
+        <style>
+            #logo{
+                border: 1px solid white;
+                text-align: center;
+            }
+            .headings{
+                display: block;
+                text-align: center;
+            }
+            #quote{
+                background-color: rgba(94, 79, 89, 0.8) ;
+                text-align: center;
+                padding: 20px;
+            }
+            #pre_quote{
+                font-family: 'Smooch', cursive;
+                font-size: large;
+                font-weight: 400;
+                background-color: rgb(255, 342, 231,0.6) ;
+            }
+            .image_gallery{
+                width:80%;
+                height: 100%;
+                text-align: center;
+                margin: 0 auto;
+                background:rgba(53, 16, 41, 0.8) ;
+            }
+            .image{
+                width :48%;
+                height:300px;
+                height: auto;
+                padding: 5px;
+            }
+            .external_web_page{
+                text-align: center;
+                margin: 0 auto;
+            }
+            #ex_web{
+                height: 500px;
+                width: 80%;
+            }
+            .table_menu{
+                text-align: center;
+                margin: 0 auto;
+            }
+            #tb{
+                text-align: center;
+                margin: 0 auto; 
+                border-collapse: collapse; 
+            }
+            #tb tr{
+                padding: 20px;
+            }
+            table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+.forms{
+    width:35%;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin:0 auto;
+    margin-top: 30px;
+    border: 2px solid rgb(0,0,0,0.5);
+    background-color: #96D4D4;
+
+}
+#lname , #fname{
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+        </style>
+
+        <!--including internal js -->
+        <script>
+let para = document.getElementById("para");
+new_heading.id = "included_heading";
+new_heading.class = "included_class";
+console.log(para.childNodes);
+// let heading = document.getElementsByClassName("headings");
+// let new_heading = document.createElement("h1");
+// new_heading.textContent= "ghj";
+// heading.appendChild(new_heading);
+// new_heading.id = "included_heading";
+// new_heading.class = "included_class";
+// console.log("app.js is scripted");
+        </script>
+
+    </head>
+
+    <body>
+      <!-- block level elements -->  
+      <!-- declaring header -->
+      <header>
+          <div id = "top_box">
+              <div><h2 id = "logo">HTML</h2></div>
+          </div>
+      </header>
+
+      <!-- headings -->  
+      <div class = "headings">
+        <h1>HTML</h1>
+        <h2>HTML</h2>
+        <h3>HTML</h3>
+        <h4>HTML</h4>
+        <h5>HTML</h5>
+        <h6>HTML</h6>
+      </div>
+
+      <div class="paragraph" id="para">
+          <!-- blockquote quote the paragraph-->
+          <blockquote id = "quote">
+            <!-- ins is used for undrline-->
+            <h3><ins><i>MY AIM IN LIFE</i></ins></h3>
+            <p>
+              An aim is a <b>goal</b> or objective to achieve in life.
+              In order to succeed in life, one must have a goal.
+              My aim in life is to be a teacher. Teaching is a
+              noble and responsible profession. I have come to
+              know that the ever-increasing misery and distress,
+              are due to the ignorance and illiteracy of the 
+              people of our country. So I have decided to spread
+              education among the masses as much as possible 
+              within my humble power. As a teacher,
+              <!-- mark is used for highlighting--> 
+              <mark>I shall try
+              my best to impart man-making education.
+              </mark>
+              Some say that money is the honey of life. But I do not 
+              agree with them. Rather, I think that morality is 
+              the real honey of life. <br> <br> I want to be a lovable and 
+              respectable person as a teacher in the future.
+            </p>
+          </blockquote>
+
+          <blockquote id = "quote">
+            <!-- ins is used for undrline-->
+            <h3><ins>preformatted paragraph</ins></h3>
+            <pre id = "pre_quote">
+              An aim is a goal or objective to achieve in life.
+              In order to succeed in life, one must have a goal.
+              My aim in life is to be a teacher. Teaching is a
+              noble and responsible profession. I have come to
+              know that the ever-increasing misery and distress,
+              are due to the ignorance and illiteracy of the 
+              people of our country. So I have decided to spread
+              education among the masses as much as possible 
+              within my humble power. As a teacher, I shall try
+              my best to impart man-making education. Some say
+              that money is the honey of life. But I do not 
+              agree with them. Rather, I think that morality is 
+              the real honey of life. I want to be a lovable and 
+              respectable person as a teacher in the future.
+            </pre>
+          </blockquote>
+      </div>
+
+      <div class = 'image_gallery'>
+        <h2 style="background-color: white">Image Gallery</h2>
+        <img class = "image" src="/images/image_gallery/black-sail-ship-on-body-of-water-906982.jpg" alt="">
+        <img class = "image" src="/images/image_gallery/burj-al-arab-saudi-823696.jpg" alt="">
+        <img class = "image" src="/images/image_gallery/campbell-boulanger-3ZUsNJhi_Ik-unsplash.jpg" alt="">
+        <img class = "image" src="/images/image_gallery/canyon-cliffs-desert-dry-371572.jpg" alt="">
+     </div>
+
+     <div class = "external_web_page">
+        <h2 style="background-color: white">External web page</h2>
+        <iframe  id = "ex_web" src="https://mediatemple.net/services" style="border:2px solid red;" title="Iframe Example"></iframe>
+     </div>
+
+     <div class = "table_menu">
+        <h2 style="background-color: white">Table</h2>
+         <table id = "tb" style="border: 2px solid black;">
+             <tr style="border: 2px solid black;">
+                 <th>Summary Statistics</th>
+                 <th>Col 0</th>
+                 <th>Col 1</th>
+                 <th>Col 2</th>
+                 <th>Col 3</th>
+             </tr>
+             <tr>
+                 <th colspan="5">Miles Per Gallon</th>
+             </tr>
+             <tr style="border: 2px solid black;">
+                <td>min</td>
+                <td>10.4</td>
+                <td>17.8</td>
+                <td>21.4</td>
+                <td>10.4</td>
+             </tr>
+             <tr style="border: 2px solid black;">
+                <td>max</td>
+                <td>10.4</td>
+                <td>17.8</td>
+                <td>21.4</td>
+                <td>10.4</td>
+             </tr>
+             <tr style="border: 2px solid black;">
+                <td>mean</td>
+                <td>10.4</td>
+                <td>17.8</td>
+                <td>21.4</td>
+                <td>10.4</td>
+             </tr>
+         </table>
+     </div>
+
+
+     <div class="forms">
+<!-- <label>: It defines label for <form> elements.
+<input>: It is used to get input data from the form in various type such as text, password, email, etc by changing it’s type.
+<button>: It defines a clickable button to control other elements or execute a functionality.
+<select>: It is used to create a drop-down list.
+<textarea>: It is used to get input long text content.
+<fieldset>: It is used to draws a box around other form elements and group the related data.
+<legend>: It defines caption for fieldset elements.
+<datalist>: It is used to specify pre-defined list options for input controls.
+<output>: It display the output of performed calculations.
+<option>: It is used to define option in drop-down list.
+<optgroup>: It used to defines group related options in a drop down list. -->
+    <h2>Welcome</h2>
+    <form >
+        <!-- fieldSet is used to beautiful outside border of form with text -->
+   <fieldset>
+       <!-- ========== legend: text of fieldset =============== -->
+    <legend>Fil this form</legend>
+
+    <!-- The action attribute defines the action to be performed when the form is submitted.
+    eg: <form action="/action_page.php"></form> -->
+
+
+    <!-- ================ textbox ================== -->
+    <h2><label for="fname" id = "fname">First Name : </label>
+        <input type="text" ></h2>
+
+    <h2><label for="lname">Last Name : </label>
+        <input type="text" id = "lname"></h2>
+
+<!-- ===================== multiple selections ====================== -->
+   <h2> <label for="car">
+    Choose a car:
+</label>
+<select name="car" id="car">
+    <option value="hyundai">Hyundai</option>
+    <option value="suzuki">Suzuki</option>
+    <option value="kia">Kia</option>
+    <option value="hector">MG hector</option>
+    <option value="toyota">Toyota</option>
+</select></h2>
+
+<!-- ====================== Radio Selection ======================== -->
+<h2>
+    <p>Gender: </p>
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender" value = "male">
+    <label for="gender">Female</label>
+    <input type="radio" name="gender" id="gender" value = "Female">
+</h2>
+
+<!-- ============================ checkboxes ============================= -->
+<h2>
+    <ul>
+        <h3>Languages : </h3>
+        <li> <input type="checkbox" name="language" id="hindi"> Hindi</li>
+        <li> <input type="checkbox" name="language" id="English"> English</li>
+        <li></li>
+    </ul>
+</h2>
+
+<!-- ======================== Email & Passwords ========================== -->
+<h2><label for="email" >Email: </label>
+<input type="email" id = "email" ></h2>
+<h2><label for="PassWord" >Password: </label>
+<input type="password" id = "password" ></h2>
+
+<!-- =========== TextArea =============== -->
+<label for="desc">Description</label>
+<textarea name="description" id="desc" cols="30" rows="10"></textarea>
+
+<!-- ======================= Date ============================ -->
+<h2><label for="Date" >Date: </label>
+    <input type="date" id = "date" ></h2>
+    <input type="datetime-local" name="date" id="date">
+
+    
+<!-- =================== Submit Button ======================= -->
+<h3><button type="submit">Submit</button></h3>
+
+   </fieldset>  
+    </form>
+    </div>
+    
+
+    </body>
+
+</html>
+
+
+

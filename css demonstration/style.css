@@ -1,0 +1,129 @@
+/* 
+    our goal -- website design 
+    minimum ten type of websites
+    with 
+  */
+html{
+    margin:0;
+    padding:0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+.top_header{
+    background-image: url(/images/header_image/cityscape-2096697.jpg);
+    background-size:cover;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0;
+}
+.top_bar{
+    color:#7ee8fa;
+    font-size: 40px;
+    padding: 13px;
+    margin:20px auto;
+    width: 70%;
+    background:rgb(0,0,0,0.5);
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(54.7deg,  #960ead 12%,#0ad8c7 100%) 30;
+    text-align: center;
+    /* outline:10px outset; */
+}
+.navigation{
+    height: 80px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(0,0,0,0.7);
+}
+.logo{
+    height: 70px;
+    display: flex;
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+.logo_text{
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Smooch', cursive;
+    font-size: 30px;
+    letter-spacing:4px;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+  width:75%;
+  display:flex;
+  text-align: center;
+}
+.menu h3{
+    width:13%;
+    background: linear-gradient(54.7deg,  #960ead 12%,#0ad8c7 100%);
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+h3 a{
+    color:#7ee8fa;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu h3 a:hover{
+    opacity:0.3;
+    transition: 0.3s;
+}
+.material-symbols-outlined{
+    /* display: inline-block; */
+    position: absolute;
+    float: left;
+    width: 25px;
+}
+.dropdown{
+    width:13%;
+    margin: auto;
+}
+.dropdown h3{
+    width:100%;
+}
+.dropdown_content{
+    z-index: 1;
+    width:100%; 
+    display: none;  
+}
+.dropdown_content h3{
+     width:100%;
+}
+.dropdown:hover{
+    border-bottom: 1px solid white;
+}
+.dropdown:hover .dropdown_content{
+    margin:1px auto;
+    width:15%;
+    position: fixed;
+    display: block;
+    transition-duration: 2s;
+}
+.dropdown:hover .dropdown_content h3{
+    border:1px solid wheat;
+}
+.hamburger{
+    display: none;
+}
+.paragraph{
+    display: block;
+    position:fixed;
+}

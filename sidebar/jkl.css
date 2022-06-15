@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+
+}
+h1{
+  margin:100px;
+  text-align:center;
+  background: rgba(0,0,0,0.5);
+
+}
+p{
+  margin-top:100px;
+  text-align: center;
+    background: rgba(0,0,0,0.6);
+}

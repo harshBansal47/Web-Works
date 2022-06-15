@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/two-yachts-floating-on-body-of-water-1225014.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top_box{
+    background-color: aqua;
+}
+ul li{
+    display: flex;
+    text-decoration: none;
+}
+ul{
+    display:block;
+}

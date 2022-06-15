@@ -1,0 +1,132 @@
+*{
+margin:0;
+padding:0;
+text-transform: uppercase;
+font-family: sans-serif 'poppins';
+list-style: none;
+text-decoration: none;
+}
+body{
+background: linear-gradient(#f4f6f7, #674353,#f34323);
+max-width:1110px;
+background: url(ghr4.jpg);
+background-size:cover;
+
+
+
+}
+.sidebar{
+
+  position: fixed;
+
+  width:30%;
+  height:100%;
+  background-color: #042331;
+  text-align: center;
+
+}
+header h2{
+  position:relative;
+
+  text-align: center;
+  color:#fff;
+  font-size: 2em;
+  transform: translateX(-10%);
+  background-color: #063146;
+  width:100%;
+  height:3em;
+
+  margin:20px;
+  font-family: sans-serif;
+
+
+}
+header h2:hover{
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  border:1px solid white;
+  transition: .4s;
+
+
+}
+.image{
+  width:25px;
+  height:20px;
+
+
+}
+.sidebar{
+display:none;
+  border-bottom: 5px solid white;
+transition: all .5s ease;
+}
+.sidebar ul a li {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  margin:12px;
+  transform: translateX(-10%);
+  line-height: 50px;
+  color:#fff;
+  border-top: 1px solid white;
+  transition: .4s;
+}
+ul a :hover{
+padding-left: 25px;
+
+box-sizing: border-box;
+border-radius: 20px;
+}
+.cncl{
+  font-size: 2em;
+  font-weight: bolder;
+  color:white;
+}
+#check{
+  display:none;
+}
+
+ .btn img,
+.cncl
+{
+  position:absolute;
+  cursor: pointer;
+
+
+}
+ .btn img {
+left: 70px;
+top:35px;
+font-size: 35px;
+padding: 10px;
+background-color: #0a5275;
+transition:all .5s;
+
+}
+.cncl{
+  z-index: 1111;
+  left:375px;
+  top:25px;
+  font-size:30px;
+color: #fff;
+background: #000;
+font-family: sans-serif;
+padding:4px 9px;
+transition:all .5s;
+
+}
+#check:checked  ~ .sidebar{
+
+  display: block;
+}
+#check:checked ~ .btn img{
+  display: block;
+
+}
+#check .cncl ::before {
+display: none;
+}
+#check .cncl::after{
+  display:block;
+}

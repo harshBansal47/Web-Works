@@ -1,0 +1,131 @@
+*{
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+body{
+  max-width: 1200px;
+  max-height: 700px;
+}
+.whole{
+  width: 1000px;
+  height:600px;
+  box-sizing: border-box;
+  border:1px solid black;
+  background: rgba(0,0,0,0.4);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left:16%;
+  top:10%;
+}
+
+.img{
+  width:240px;
+  height:290px;
+
+
+
+}
+
+.col-1, .col-2, .col-3, .col-4{
+height:100%;
+width:24%;
+  background:rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  border:1px solid black;
+position:relative;
+display:inline-block;
+}
+
+.col-1 div{
+  height:50%;
+  width:100%;
+  background-color: #fff;
+  position:relative;
+    border-bottom: 1px solid black;
+}
+
+.col-2 div{
+  height:50%;
+  width:100%;
+  background-color: #fff;
+  position:relative;
+    border-bottom: 1px solid black;
+}
+
+.col-3 div{
+  height:50%;
+  width:100%;
+  background-color: #fff;
+  position:relative;
+    border-bottom: 1px solid black;
+}
+
+
+.col-4 div{
+  height:50%;
+  width:100%;
+  background-color: #fff;
+  position:relative;
+  border-bottom: 1px solid black;
+
+}
+
+.col-1 :nth-child(1){
+
+  animation: anmate 1s infinite;
+}
+
+  .col-3 :nth-child(1){
+
+    animation: anmate 1s infinite;
+  }
+
+
+.col-2 :nth-child(2){
+  animation: anmat 1s infinite;
+  animation-delay:0.5s;
+}
+.col-4 :nth-child(2){
+  animation: anmat 1s infinite;
+    animation-delay:0.5s;
+}
+@keyframes anmate {
+0%{
+  position:absolute;
+bottom:50%;
+
+}
+
+50%{
+  position:absolute;
+  bottom:25%;
+
+}
+
+100%{
+  position:absolute;
+  bottom:0%;
+
+}
+
+}
+
+@keyframes anmat {
+  0%{
+position: absolute;
+bottom:0%;
+  }
+
+  50%{
+    position: absolute;
+    bottom:25%;
+  }
+
+  100%{
+    position: absolute;
+    bottom:50%;
+  }
+}

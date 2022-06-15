@@ -1,0 +1,48 @@
+*{
+  text-transform:uppercase;
+  text-decoration: none;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:grey;
+  height:100%;
+  width:100%;
+
+}
+
+.container{
+  height:25%;
+  width:100%;
+  background: orange;
+  position:absolute;
+  bottom:0;
+
+}
+.blocks{
+  width:25%;
+  height:100%;
+  float:left;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.blocks ul{
+  margin-top:10px;
+}
+.blocks ul li {
+  margin:10px;
+  border-bottom: 1px solid white;
+border-radius:20%;
+margin:bottom:2px;
+}
+.blocks ul li:hover{
+margin:bottom:4px;
+border-radius:30%;
+text-shadow: 34;
+}

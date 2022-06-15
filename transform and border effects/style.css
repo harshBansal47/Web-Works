@@ -1,0 +1,167 @@
+*{
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+  background-size: cover;
+  overflow: none;
+}
+
+
+.matter-1,
+.matter-2,
+.matter-3,
+.matter-4
+{
+  width:350px;
+  height:300px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  animation: animate 1s infinite;
+
+}
+.imgs 1,
+.imgs 2,
+.imgs 3,
+.imgs 4{
+  animation: animat 1s infinite;
+}
+.main
+{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  border: 1px solid black;
+
+
+
+}
+
+.cols-1,
+.cols-2,
+.cols-3,
+.cols-4
+{
+  width:350px;
+  height:700px;
+  position:relative;
+  display:inline-block;
+  margin:10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.imgs-1 img {
+  height:400px;
+  width:350px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.imgs-2 img {
+  height:400px;
+  width:350px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.imgs-3 img {
+  height:400px;
+  width:350px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.imgs-4 img {
+  height:400px;
+  width:350px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.matter-1 h2,
+.matter-2 h2,
+.matter-3 h2,
+.matter-4 h2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.matter-1 p,
+.matter-2 p,
+.matter-3 p,
+.matter-4 p
+{ position: absolute;
+  top: 15%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.matter-4 p:hover{
+  position: absolute;
+  top:17%;
+  opacity:0.9;
+  transition: 0.5s;
+}
+
+
+.matter-3 p:hover{
+  position: absolute;
+  top:17%;
+  opacity:0.9;
+  transition: 0.5s;
+
+}
+
+
+.matter-2 p:hover{
+  position: absolute;
+  top:17%;
+  opacity:0.9;
+  transition: 0.5s;
+}
+
+
+.matter-1 p:hover{
+  position: absolute;
+  top:17%;
+  opacity:0.9;
+  transition: 0.5s;
+}
+
+
+
+@keyframes animate {
+
+0%{
+position:absolute;
+top:0;
+
+}
+
+
+100%{
+position:absolute;
+bottom:0;
+}
+
+}
+
+@keyframes animat {
+
+0%{
+position:absolute;
+bottom:0;
+
+}
+
+
+100%{
+position:absolute;
+top:0;
+}
+
+}

@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: sans-serif;
+  background: linear-gradient(rgb(42,54,87), rgb(456,87,23));
+text-transform: uppercase;
+}
+.start{
+  background-color:white;
+  position: absolute;
+
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:100%;
+  height:100%;
+
+
+
+
+
+}
+.start .b1 {
+  position: relative;
+  display:inline-block;
+  margin: 40px;
+border: 1px solid white;
+padding:5px;
+
+
+
+}
+.b2 {
+  position:relative;
+  border-right: 2px solid black;
+  background-color: black;
+}
+
+.b1{
+  animation: tere 5s 1;
+}
+@keyframes tere {
+
+  0%{
+    background-color: green;
+    text-align: left;
+  }
+  5%{
+    background-color: red;
+    text-align: center;
+    font-weight: 400;
+    font-size: bolder;
+  }
+  15%{
+      background: linear-gradient(rgb(45,76,345), rgb(34,234,65));
+  }
+  20%{
+      background: linear-gradient(rgb(56,345,342), rgb(453,23,76));
+  }
+  40%{
+      background:linear-gradient(rgb(45,53,45), rgb(34,24,5));
+  }
+  60%{
+      background: linear-gradient(rgb(125,53,45), rgb(364,24,5));
+  }
+
+80%{
+    background: linear-gradient(rgb(45,53,45), rgb(34,24,5));
+}
+90%{
+  background: linear-gradient(rgb(45,53,45), rgb(34,24,5));
+
+}
+95%{
+  background-color: red;
+  text-align: center;
+  font-weight: 400;
+  font-size: bolder;
+}
+
+100%{
+  background-color: green;
+  text-align: right;
+}
+
+}

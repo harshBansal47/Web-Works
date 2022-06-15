@@ -1,0 +1,47 @@
+<!-- https://www.geeksforgeeks.org/create-a-music-player-using-javascript/?ref=leftbar-rightbar -->
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">  -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> simple mp3 player</title>
+  <link rel="stylesheet"type="text/css" href="style.css" >
+  <!-- <script src="https://kit.fontawesome.com/df31ead811.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+<div class = "player">
+<div class = "box">
+<div class = "details">
+<div class = "now_playing">playing x of y</div>
+<div class = "album_image"></div>
+<div class = "song_name">song1</div>
+<div class = "song_artist">song-artist</div>
+</div>
+<div class = "buttons">
+<div class = "backward_song">
+<i class="fa fa-step-backward fa-2x"></i>
+</div>
+<div class = "play_pause">
+<i class="fa fa-play-circle fa-5x"></i>
+</div>
+<div class = "forward_song">
+<i class="fa fa-step-forward fa-2x"></i>
+</div>
+</div>
+<div class = "slider_container">
+<div class = "current_time">0:00</div>
+<input type = "range" min = "0" max = "100" value = "80" class = "duration_slider">
+<div class = "total_time">4:56</div>
+</div>
+<div class = "slider_container">
+   <i class="fa fa-volume-down fa-2x"></i>
+   <input type = "range" min = "0" max = "100" value = "90" class = "volume_slider" >
+   <i class="fa fa-volume-up fa-2x"></i>
+</div>
+</div>
+</div>
+<script src = "testing.js"></script>
+</body>
+</html>

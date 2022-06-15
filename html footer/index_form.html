@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="style_form.css">
+<title>l_g_forms</title>
+</head>
+<body>
+<div class = "main">
+<div class = "form_box">
+<div class = "form_access">
+<button id = "login_b">Login</button>
+<button id = "registor_b">Registor</button>
+</div>
+
+<form class = "registor form_content">
+  <input id = "rfn" type="text" placeholder="First Name">
+  <input id = "rln" type="text"  placeholder="Last Name">
+  <input id = "rps" type="password"  placeholder="password">
+  <input id = "rpcs" type="password"  placeholder="Confirm Password">
+  <input id = "rpem" type="email" placeholder="Email">
+  <input id = "rpu" type="text"  placeholder="Username">
+  <button id = "rb" >Registor</button>
+  <p>Already registered? <span id = "login_c">Login</span></p>
+</form>
+
+<form class = "login form_content">
+  <input type="text" name="username" placeholder="username">
+  <input type = "password" placeholder="password">
+  <button id = "lb">Login</button>
+  <p>Forgot password? <span id = "f_p">click here</span></p>
+</form>
+
+<form class = "forgot_psswrd form_content">
+ <input type = "password" placeholder = "enter new password">
+ <input type = "password" placeholder = "re-enter new password">
+ <button id = "rpb">Confirm</button>
+</form>
+
+</div>
+</div>
+<script src = "app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+</body>
+</html>

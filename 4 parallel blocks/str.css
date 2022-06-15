@@ -1,0 +1,26 @@
+*{
+  margin:0;
+padding:0;
+}
+body{
+  background-size: cover;
+  background-image: url(b.jpg);
+  max=width:1240px;
+
+}
+#logo{
+  height: 100px;
+  width:auto;
+  margin: 20px;
+}
+#df{
+  color:white;
+  border:2px solid white;
+  font-size:6em;
+  text-decoration: none;
+  text-align: center;
+  text-transform:capitalize; }
+  .m p{
+    text-transform: uppercase;
+    font-size: 4em;
+  }

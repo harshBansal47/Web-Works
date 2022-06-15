@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.main{
+  width:100%;
+  height:100vh;
+  background-image: url("i11.jpg");
+  position: relative;
+  background-size: cover;
+}
+.form_box{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:400px;
+  max-height: 600px;
+  background: #6c7a77;
+  display: block;
+  padding:25px;
+}
+.form_access{
+  width:100%;
+  display: flex;
+  margin:0 auto;
+  padding:10px;
+}
+.form_access button{
+  background:#ff0084;
+  text-transform: uppercase;
+  height:35px;
+  width:35%;
+  border-radius:5px;
+  color:#e3d8dd;
+  font-weight: bold;
+  border: none;
+  margin:auto;
+}
+#label{
+  background:#ff0084;
+  text-transform: uppercase;
+  height:35px;
+  max-width:60%;
+  margin:20px auto;
+  border-radius:5px;
+  color:#e3d8dd;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_content{
+  margin:20px auto;
+  display: block;
+  width:100%;
+  text-align: center;
+  }
+  .form_content input{
+    width:80%;
+    margin: 10px auto;
+    background: transparent;
+    border: none;
+    color:white;
+    border-bottom: 1px solid white;
+  }
+  ::-webkit-input-placeholder{
+    color:white;
+  }
+  .form_content button{
+    width:60%;
+    height:40px;
+    margin:10px auto;
+    border:none;
+    color:#e3d8dd;
+    background:#ff0084;
+  }
+  .form_content p{
+    color: white;
+  }
+.form_content p a{
+  text-decoration: none;
+  color:#e3d8dd;
+}
+#login_c:hover{
+  background: #ff0084;
+    padding:5px;
+    border-radius: 10px;
+}
+#f_p:hover{
+  background: #ff0084;
+    padding:5px;
+    border-radius: 10px;
+}
+.login{
+  display: none;
+  transition:0.5s;
+}
+.forgot_psswrd{
+  display: none;
+}
